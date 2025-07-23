@@ -1,5 +1,10 @@
+//class - class -> extends
+//class - interface -> implements
+//interface - interface -> extends
+
 interface  computer{
     void code();
+}    
 
 class laptop implements  computer{
     public void code()
@@ -38,3 +43,4 @@ public class needforinterference {
         }
     
 }
+
