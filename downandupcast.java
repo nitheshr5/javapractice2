@@ -25,7 +25,7 @@ public class downandupcast {
   A1 obj = (A1) new B1();  //this is up casting where B1 calls the A1 , here object is B1 but it is aksing refer A1
  
   obj.show();
-
+ 
 
   B1 obj1 = (B1) obj;  //this is down casting
   obj1.show2();
